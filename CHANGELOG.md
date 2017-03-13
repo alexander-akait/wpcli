@@ -6,4 +6,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 # 1.0.0 - 2016-12-13
 
-- Chore: initial public release.
+-   Chore: initial public release.

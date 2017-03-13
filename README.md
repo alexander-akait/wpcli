@@ -39,7 +39,7 @@ which is enhanced to also be a `Promise` for a result `Object` with `stdout` and
 
 ## Related
 
-- [wp-cli](https://github.com/wp-cli/wp-cli) - Main package.
+-   [wp-cli](https://github.com/wp-cli/wp-cli) - Main package.
 
 ## Contribution
 
