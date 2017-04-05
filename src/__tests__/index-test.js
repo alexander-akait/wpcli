@@ -30,16 +30,16 @@ test('should execute custom args successfully and options', async (t) => {
     t.true(result.stderr.length === 0);
 });
 
-test('should execute failed if not found bin', (t) => {
-    t.throws(wpCli());
-});
+test('should execute failed if not found bin', (t) => t.throws(wpCli()));
 
-test('should execute failed with unknown command', (t) => {
-    t.throws(wpCli(path.join(fixturesDir, './wp-cli.phar'), ['unknown']));
-});
+test(
+    'should execute failed with unknown command',
+    (t) => t.throws(wpCli(path.join(fixturesDir, './wp-cli.phar'), ['unknown']))
+);
 
-test('should execute failed and catching', (t) => {
-    t.throws(
+test(
+    'should execute failed and catching',
+    (t) => t.throws(
         wpCli(path.join(fixturesDir, './wp-cli.phar'), ['unknown'])
             .catch((error) => {
                 t.true(error.code === 1);
@@ -48,5 +48,5 @@ test('should execute failed and catching', (t) => {
 
                 throw error;
             })
-    );
-});
+    )
+);
