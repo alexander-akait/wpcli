@@ -1,11 +1,10 @@
 # wpcli
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/itgalaxy/wpcli.svg)](https://greenkeeper.io/)
-
 [![NPM version](https://img.shields.io/npm/v/wpcli.svg)](https://www.npmjs.org/package/wpcli) 
 [![Travis Build Status](https://img.shields.io/travis/itgalaxy/wpcli/master.svg?label=build)](https://travis-ci.org/itgalaxy/wpcli) 
 [![dependencies Status](https://david-dm.org/itgalaxy/wpcli/status.svg)](https://david-dm.org/itgalaxy/wpcli) 
 [![devDependencies Status](https://david-dm.org/itgalaxy/wpcli/dev-status.svg)](https://david-dm.org/itgalaxy/wpcli?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/itgalaxy/wpcli.svg)](https://greenkeeper.io/)
 
 Wrapper to use wp-cli with promises.
 
