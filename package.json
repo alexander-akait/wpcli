@@ -29,7 +29,7 @@
         "release": "npmpub"
     },
     "dependencies": {
-        "execa": "^0.6.0"
+        "execa": "^0.7.0"
     },
     "devDependencies": {
         "ajv-cli": "^2.1.0",
