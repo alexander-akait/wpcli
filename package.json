@@ -1,6 +1,6 @@
 {
     "name": "wpcli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple wrapper to use wp-cli with promises",
     "author": "itgalaxy <development@itgalaxy.company>",
     "license": "MIT",
